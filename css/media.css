@@ -1,0 +1,450 @@
+@media (max-width:1365px) {
+
+  .container {
+    width: 100%;
+    padding: 0 5%;
+  }
+
+}
+
+@media (max-width:1200px) {
+
+  html {
+    font-size: 60%;
+  }
+
+  .book-btn {
+    width: auto;
+  }
+
+  .book-btn a {
+    font-size: 1.5rem;
+  }
+
+
+  .slider {
+    margin-top: 84.8px;
+  }
+
+  .footer-container {
+    padding-bottom: 3rem;
+  }
+
+
+}
+
+
+@media (max-width:1159px) {
+
+
+  header nav {
+    position: absolute;
+    top: 84.8px;
+    left: -200%;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.703);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  header nav ul {
+    display: block;
+    list-style: none;
+  }
+
+  header nav ul li {
+    margin: 2rem 0rem;
+    font-size: 2rem;
+
+  }
+
+  header nav ul li a {
+    color: var(--white-color);
+  }
+
+  header nav ul li a.active, header nav ul li a:hover {
+    color: var(--white-color);
+  }
+  header nav ul li a:hover {
+    color: var(--white-color);
+  }
+  .active, .dot:hover {
+    border-color: var(--main-color);
+  }
+
+  #times {
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: #680091;
+    display: grid;
+    place-items: center;
+    color: white;
+  }
+
+  .slider {
+    margin-top: 84.8px;
+  }
+
+  .myslide {
+    height: 64rem;
+  }
+
+  #bars {
+    display: block;
+  }
+
+
+
+
+  /* about us */
+
+  .breedcum-banner {
+    margin-top: 92.8px;
+  }
+
+}
+
+
+@media (max-width:992px) {
+
+  html {
+    font-size: 55%;
+  }
+
+
+  header nav {
+    top: 76.6px;
+  }
+
+
+  .slider {
+    margin-top: 76.6px;
+  }
+
+  .services-offer-conrainer {
+    padding-bottom: 3rem;
+  }
+
+
+}
+
+@media (max-width:769px) {
+
+  html {
+    font-size: 53%;
+  }
+
+  header nav {
+    position: absolute;
+    top: 74.5px;
+  }
+
+  .slider {
+    margin-top: 74.5px;
+  }
+
+  .myslide {
+    height: 66.5rem;
+  }
+
+
+  .logo {
+    width: 30%;
+    height: auto;
+  }
+
+  .about-container-inner1 {
+    width: 50%;
+  }
+
+  .about-container-inner2 {
+    width: 50%;
+  }
+
+  .counter-conatiner {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .counter-inner:nth-child(2)::after {
+    display: none;
+  }
+
+  .your-class {
+    width: 80%;
+  }
+
+  .show-gallery-inner {
+    width: 48%;
+    background-color: red;
+    margin-bottom: 3rem;
+
+  }
+
+  .show-gallery-inner:nth-child(3){
+    margin-bottom: 0rem;
+  }
+
+  .show-gallery-inner:nth-child(4){
+    margin-bottom: 0rem;
+  }
+  .hide-gallery-inner {
+    width: 48%;
+    background-color: red;
+    margin-bottom: 3rem;
+  }
+
+  .footer1 {
+    width: 48%;
+    height: 20rem;
+  }
+
+  .footer2 {
+    width: 48%;
+    height: 20rem;
+  }
+
+  .footer3 {
+    width: 100%;
+    height: 27rem;
+  }
+
+
+  .footer3 h3 {
+    text-align: left;
+  }
+
+
+  .footer3 h3::after {
+    left: 0;
+  }
+
+
+  .footer3 ul li a {
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 0%;
+  }
+
+
+  .footer3 ul div {
+    justify-content: flex-start;
+  }
+
+  .footer3 ul div li:first-child {
+    margin-right: 1rem;
+  }
+
+
+}
+
+@media (max-width:577px) {
+
+  .logo {
+    width: 50%;
+    height: auto;
+  }
+
+  .book-btn a {
+    font-size: 1.3rem;
+    padding: 0.8rem 3rem;
+    display: none;
+  }
+
+  .book-btn i {
+    font-size: 3.5rem;
+    margin-left: 1.5rem;
+    display: block;
+  }
+
+  header{
+    height: 78.3px;
+  }
+
+  header nav {
+    position: absolute;
+    top: 78.3px;
+  }
+
+  .slider {
+    margin-top: 78.3px;
+  }
+
+  .txt{
+    text-align: center;
+  }
+
+
+  .about-container {
+    flex-direction: column-reverse;
+  }
+
+  .about-container-inner1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-container-inner1 p {
+    text-align: center;
+  }
+
+
+
+
+  .about-container-inner2 {
+    width: 100%;
+    height: 40rem;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+
+  .about-container-inner1 p {
+    text-align: center !important;
+  }
+
+  .counter-inner {
+    width: 100%;
+    height: 20rem;
+    margin: 3rem 0;
+  }
+
+  .counter-inner::after {
+    display: none;
+  }
+
+  .your-class {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding: 0 5%;
+  }
+
+  .footer1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer2 {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .footer2 h3 {
+    text-align: left;
+
+  }
+
+  .footer2 h3::after {
+    width: 10%;
+    margin: 1rem 0% 0 0%;
+    left: 0;
+  }
+
+  .social {
+    justify-content: left;
+    align-items: center;
+  }
+
+  .social li {
+    margin: 1rem;
+  }
+
+  .social li:first-child {
+    margin-left: 0;
+  }
+
+  .footer-container{
+    margin-bottom: 67.8px;
+  }
+
+
+  .cta-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    z-index: 99999999999999;
+    background: var(--white-color);
+  }
+
+  /* about us */
+
+  .breedcum-banner {
+    margin-top: 74.3px;
+  }
+
+
+  .aboutus-textcontainer p {
+    padding-right: 0;
+  }
+
+  /* our- doctor */
+
+  .dr-profile {
+    width: 100%;
+    margin: 3rem 0;
+    align-items: center;
+
+  }
+
+  .profile-container {
+    width: 100%;
+    height: auto;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* .text-testimonial p {
+    padding: 3%;
+    line-height: 2.5rem;
+  } */
+
+  /* .testimonial-container {
+    padding: 3rem 5%;
+  } */
+/* 
+  .text-testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0 5%;
+    flex-direction: column;
+    background-color: red;
+
+  }
+
+  .testimonial-inner {
+    height: auto;
+  } */
+
+  .whatsapp{
+    display: none;
+  }
+
+}
